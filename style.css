@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -166,4 +167,25 @@ p {
     font-size: 12px;
 
     margin-top: 15px;
+}
+
+
+/* =================================
+   MOBILE RESPONSIVE
+================================= */
+
+@media (max-width: 420px) {
+
+    .calculator {
+        width: 92%;
+        padding: 20px;
+    }
+
+    button {
+        height: 55px;
+    }
+
+    #result {
+        font-size: 32px;
+    }
 }

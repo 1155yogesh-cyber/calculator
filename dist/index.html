@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Smart Calculator</title>
 
-  <script type="module" crossorigin src="/assets/index-BCxwvMOZ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BEatNedM.css">
+  <script type="module" crossorigin src="/assets/index-DfQAobKu.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DgcZb4kk.css">
 </head>
 
 <body>
@@ -23,29 +24,33 @@
 
         <div class="buttons">
 
+            <!-- First Row -->
             <button class="clear" onclick="clearDisplay()">AC</button>
             <button class="delete" onclick="deleteLast()">⌫</button>
             <button class="operator" onclick="addOperator('%')">%</button>
             <button class="operator" onclick="addOperator('/')">÷</button>
 
+            <!-- Second Row -->
             <button onclick="addNumber('7')">7</button>
             <button onclick="addNumber('8')">8</button>
             <button onclick="addNumber('9')">9</button>
             <button class="operator" onclick="addOperator('*')">×</button>
 
+            <!-- Third Row -->
             <button onclick="addNumber('4')">4</button>
             <button onclick="addNumber('5')">5</button>
             <button onclick="addNumber('6')">6</button>
             <button class="operator" onclick="addOperator('-')">−</button>
 
+            <!-- Fourth Row -->
             <button onclick="addNumber('1')">1</button>
             <button onclick="addNumber('2')">2</button>
             <button onclick="addNumber('3')">3</button>
             <button class="operator" onclick="addOperator('+')">+</button>
 
+            <!-- Fifth Row -->
             <button class="zero" onclick="addNumber('0')">0</button>
             <button onclick="addNumber('.')">.</button>
-
             <button class="equal" onclick="calculate()">=</button>
 
         </div>
@@ -56,4 +61,6 @@
 
 
 </body>
+
 </html>
+
